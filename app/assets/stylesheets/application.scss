@@ -15,6 +15,7 @@
 @import 'bootstrap';
 //* colors *//
 $primary-color: #191B27;
+$secondar-color: #1D223B;
 $h2-color: #286D92;
 
 //* mixins *//
@@ -24,7 +25,7 @@ $h2-color: #286D92;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     display: inline-block;
-} 
+}
 
 //* scss - css *//
 
@@ -84,7 +85,7 @@ h3 {
     color: #B0C9BE;
     padding: 25px;
     text-transform: uppercase;
-} 
+}
 
 .button-big:hover {
     /* Rectangle [25 40]: */
@@ -130,4 +131,24 @@ h3 {
 .footer {
     margin: 25px 0;
     text-align: center;
+}
+
+//* product page information *//
+
+.product-card-page {
+    background-color: $secondar-color;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.price-bck {
+  background-color: #2C3562;
+  display:inline-block;
+  padding: 10px 12px;
+  border-radius: 80px;
+  font-size: 25px;
+}
+
+.price-cart {
+  margin-left: 15px;
 }

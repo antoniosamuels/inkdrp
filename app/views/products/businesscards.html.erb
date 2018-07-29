@@ -1,2 +1,17 @@
-<h1>Products#businesscards</h1>
-<p>Find me in app/views/products/businesscards.html.erb</p>
+<div class="product-card-page row">
+  <div class="col-md-4"><%= image_tag 'products/business-cards.png' %></div>
+
+  <div class="col-md-4">
+    <h2>Title</h2>
+    <p>Full color print</p>
+    <p>Double sided (color on both sides, yeah!)</p>
+    <p>High gloss UV</p>
+    <p>14pt cardstock</p>
+    <p>3 day printing (business days)</p>
+    <p>Roughly 3-5 days for shipping</p>
+  </div>
+
+  <div class="col-md-4">
+    <div class="price-bck">$80<%= link_to image_tag('icons/shop-icon.svg', size: '45x45', :class => "price-cart") %></div>
+  </div>
+</div>
