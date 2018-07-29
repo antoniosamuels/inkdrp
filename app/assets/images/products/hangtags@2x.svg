@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="392px" height="332px" viewBox="0 0 392 332" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>hangtags@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="366" height="306" rx="10"></rect>
+        <filter x="-4.9%" y="-5.6%" width="112.0%" height="114.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0431372549   0 0 0 0 0.0470588235   0 0 0 0 0.0705882353  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M40.4288907,-3.19744231e-13 L248,-6.68620714e-12 C251.865993,-6.78306068e-12 255,3.13400675 255,7 L255,107 C255,110.865993 251.865993,114 248,114 L40.4288907,114 L2.04636308e-12,80.7704365 L4.32580435e-12,39.2855875 L40.4288907,-3.19744231e-13 Z" id="path-3"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#363A4F" offset="0%"></stop>
+            <stop stop-color="#191B27" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="cartoon-design-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-768.000000, -2084.000000)">
+            <g id="hangtags" transform="translate(777.000000, 2092.000000)">
+                <g id="Rectangle-Copy-14">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0D101B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-12" transform="translate(55.000000, 96.000000)">
+                    <g id="Group-8-Copy" transform="translate(128.000000, 57.500000) rotate(90.000000) translate(-128.000000, -57.500000) translate(70.500000, -70.500000)">
+                        <g id="Rectangle-3-Copy-4" transform="translate(57.500000, 128.000000) rotate(90.000000) translate(-57.500000, -128.000000) translate(-70.000000, 71.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" fill="#286D92" xlink:href="#path-3"></use>
+                            <polygon id="Rectangle-3" fill="#2F4368" mask="url(#mask-4)" points="-84 -84 20.1686635 -84 101 140 -84 140"></polygon>
+                        </g>
+                        <g id="Group-7-Copy-3" transform="translate(80.500000, 211.580092) scale(-1, -1) rotate(90.000000) translate(-80.500000, -211.580092) translate(52.000000, 196.080092)" fill-rule="nonzero">
+                            <path d="M0.834356321,5.68312171 C0.373554049,5.68312171 0,4.41091158 0,2.84156086 C0,1.27221013 0.373554049,0 0.834356321,0 L55.905385,0 C56.3661872,0 56.7397413,1.27221013 56.7397413,2.84156086 C56.7397413,4.41091158 56.3661872,5.68312171 55.905385,5.68312171 L0.834356321,5.68312171 Z" id="Line" fill="#191B27"></path>
+                            <path d="M0.834356321,17.9965521 C0.373554049,17.9965521 0,16.724342 0,15.1549912 C0,13.5856405 0.373554049,12.3134304 0.834356321,12.3134304 L55.905385,12.3134304 C56.3661872,12.3134304 56.7397413,13.5856405 56.7397413,15.1549912 C56.7397413,16.724342 56.3661872,17.9965521 55.905385,17.9965521 L0.834356321,17.9965521 Z" id="Line-Copy" fill="#191B27"></path>
+                            <path d="M0.604373489,30.3099825 C0.270587228,30.3099825 0,29.0377723 0,27.4684216 C0,25.8990709 0.270587228,24.6268608 0.604373489,24.6268608 L40.4955673,24.6268608 C40.8293536,24.6268608 41.0999408,25.8990709 41.0999408,27.4684216 C41.0999408,29.0377723 40.8293536,30.3099825 40.4955673,30.3099825 L0.604373489,30.3099825 Z" id="Line-Copy-2" fill="url(#linearGradient-5)"></path>
+                        </g>
+                    </g>
+                    <circle id="Oval-3" fill="#0D101B" cx="234.5" cy="57.5" r="7.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

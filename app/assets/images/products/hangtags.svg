@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="295px" viewBox="0 0 344 295" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>hangtags</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="318" height="269" rx="10"></rect>
+        <filter x="-5.7%" y="-6.3%" width="113.8%" height="116.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0431372549   0 0 0 0 0.0470588235   0 0 0 0 0.0705882353  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M35.1267411,-1.0895453e-12 L214.557377,-6.68620714e-12 C218.42337,-6.81053022e-12 221.557377,3.13400675 221.557377,7 L221.557377,93.2156863 C221.557377,97.0816795 218.42337,100.215686 214.557377,100.215686 L35.1267411,100.215686 L2.04636308e-12,71.0040766 L4.02686123e-12,34.5353694 L35.1267411,-1.0895453e-12 Z" id="path-3"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#363A4F" offset="0%"></stop>
+            <stop stop-color="#191B27" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="cartoon-design-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-768.000000, -2084.000000)">
+            <g id="hangtags" transform="translate(777.000000, 2092.000000)">
+                <g id="Rectangle-Copy-14">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0D101B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-12" transform="translate(47.786885, 84.392157)">
+                    <g id="Group-8-Copy" transform="translate(111.213115, 50.547386) rotate(90.000000) translate(-111.213115, -50.547386) translate(61.254098, -61.975490)">
+                        <g id="Rectangle-3-Copy-4" transform="translate(49.959016, 112.522876) rotate(90.000000) translate(-49.959016, -112.522876) translate(-60.819672, 62.415033)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" fill="#286D92" xlink:href="#path-3"></use>
+                            <polygon id="Rectangle-3" fill="#2F4368" mask="url(#mask-4)" points="-72.9836066 -73.8431373 17.5235929 -73.8431373 87.7540984 123.071895 -72.9836066 123.071895"></polygon>
+                        </g>
+                        <g id="Group-7-Copy-3" transform="translate(69.942623, 185.996878) scale(-1, -1) rotate(90.000000) translate(-69.942623, -185.996878) translate(45.180328, 172.371061)" fill-rule="nonzero">
+                            <path d="M0.724932541,4.99594687 C0.324563354,4.99594687 0,3.87756606 0,2.49797343 C0,1.1183808 0.324563354,0 0.724932541,0 L48.5735312,0 C48.9739004,0 49.2984637,1.1183808 49.2984637,2.49797343 C49.2984637,3.87756606 48.9739004,4.99594687 48.5735312,4.99594687 L0.724932541,4.99594687 Z" id="Line" fill="#191B27"></path>
+                            <path d="M0.724932541,15.8204984 C0.324563354,15.8204984 0,14.7021176 0,13.322525 C0,11.9429323 0.324563354,10.8245515 0.724932541,10.8245515 L48.5735312,10.8245515 C48.9739004,10.8245515 49.2984637,11.9429323 49.2984637,13.322525 C49.2984637,14.7021176 48.9739004,15.8204984 48.5735312,15.8204984 L0.724932541,15.8204984 Z" id="Line-Copy" fill="#191B27"></path>
+                            <path d="M0.525111392,26.6450499 C0.235100378,26.6450499 0,25.5266691 0,24.1470765 C0,22.7674839 0.235100378,21.6491031 0.525111392,21.6491031 L35.1846732,21.6491031 C35.4746843,21.6491031 35.7097846,22.7674839 35.7097846,24.1470765 C35.7097846,25.5266691 35.4746843,26.6450499 35.1846732,26.6450499 L0.525111392,26.6450499 Z" id="Line-Copy-2" fill="url(#linearGradient-5)"></path>
+                        </g>
+                    </g>
+                    <ellipse id="Oval-3" fill="#0D101B" cx="203.745902" cy="50.5473856" rx="6.51639344" ry="6.59313725"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

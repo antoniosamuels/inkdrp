@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="295px" viewBox="0 0 344 295" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>posters</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="318" height="269" rx="10"></rect>
+        <filter x="-5.7%" y="-6.3%" width="113.8%" height="116.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0431372549   0 0 0 0 0.0470588235   0 0 0 0 0.0705882353  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M6.3,5.70129078e-14 L176.880762,6.16020419e-14 L176.880762,26.6114036 L199.16594,26.6114036 L199.16594,142.182945 C199.16594,145.662339 196.345334,148.482945 192.86594,148.482945 L6.3,148.482945 C2.82060608,148.482945 -3.12661082e-15,145.662339 -3.55271368e-15,142.182945 L8.8817842e-16,6.3 C4.62075557e-16,2.82060608 2.82060608,6.90288926e-14 6.3,6.83897383e-14 Z" id="path-3"></path>
+        <linearGradient x1="100%" y1="-12.1059976%" x2="0%" y2="119.257726%" id="linearGradient-5">
+            <stop stop-color="#FEBB00" offset="0%"></stop>
+            <stop stop-color="#FF3693" offset="43%"></stop>
+            <stop stop-color="#FF1A4E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="cartoon-design-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-1185.000000, -1608.000000)">
+            <g id="posters" transform="translate(1194.000000, 1616.000000)">
+                <g id="Rectangle-Copy-11">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0D101B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-10" transform="translate(82.540984, 32.526144)">
+                    <g id="Rectangle-3-Copy-3" transform="translate(73.418033, 101.973856) scale(1, -1) rotate(90.000000) translate(-73.418033, -101.973856) translate(-26.555459, 27.732384)">
+                        <polygon id="Rectangle-5" fill="#2F4368" points="164.800052 5.68434189e-14 176.761318 7.92909674e-14 199.211486 26.9638011 164.800052 40.2799479"></polygon>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#286D92" xlink:href="#path-3"></use>
+                        <polygon id="Rectangle-3" fill="#2F4368" mask="url(#mask-4)" points="-65.6076038 -7.898029 15.7525915 -7.898029 78.8853331 169.017821 -65.6076038 169.017821"></polygon>
+                    </g>
+                    <g id="Group-7-Copy-4" transform="translate(12.496686, 48.267259)" fill="#191B27" fill-rule="nonzero">
+                        <path d="M1.79169341,4.7388174 C0.802168465,4.7388174 0,3.67799699 0,2.3694087 C0,1.06082041 0.802168465,0 1.79169341,0 L120.050999,0 C121.040524,0 121.842693,1.06082041 121.842693,2.3694087 C121.842693,3.67799699 121.040524,4.7388174 120.050999,4.7388174 L1.79169341,4.7388174 Z" id="Line-Copy"></path>
+                        <path d="M1.2978292,15.0062551 C0.581057927,15.0062551 0,13.9454347 0,12.6368464 C0,11.3282581 0.581057927,10.2674377 1.2978292,10.2674377 L86.9600187,10.2674377 C87.67679,10.2674377 88.2578479,11.3282581 88.2578479,12.6368464 C88.2578479,13.9454347 87.67679,15.0062551 86.9600187,15.0062551 L1.2978292,15.0062551 Z" id="Line-Copy-2"></path>
+                    </g>
+                    <ellipse id="Oval-2" fill="url(#linearGradient-5)" cx="108.564963" cy="162.78868" rx="25.7744158" ry="26.0634957"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

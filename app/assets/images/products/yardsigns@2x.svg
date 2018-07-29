@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="392px" height="332px" viewBox="0 0 392 332" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>yardsigns@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="366" height="306" rx="10"></rect>
+        <filter x="-4.9%" y="-5.6%" width="112.0%" height="114.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0431372549   0 0 0 0 0.0470588235   0 0 0 0 0.0705882353  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="229" height="143" rx="7.28"></rect>
+        <linearGradient x1="49.9639554%" y1="-8.89069913%" x2="49.9639554%" y2="103.764728%" id="linearGradient-5">
+            <stop stop-color="#FEBB00" offset="0%"></stop>
+            <stop stop-color="#FF3693" offset="43%"></stop>
+            <stop stop-color="#FF1A4E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="cartoon-design-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-768.000000, -2574.000000)">
+            <g id="yardsigns" transform="translate(777.000000, 2582.000000)">
+                <g id="Rectangle-Copy-14">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0D101B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-9" transform="translate(69.000000, 56.000000)">
+                    <g id="Rectangle-3-Copy-3">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#286D92" xlink:href="#path-3"></use>
+                        <polygon id="Rectangle-3" fill="#2F4368" mask="url(#mask-4)" points="-22 -34 61.8980047 -34 127 36 -22 36"></polygon>
+                    </g>
+                    <g id="Group-7" transform="translate(56.000000, 53.000000)" fill="#191B27" fill-rule="nonzero">
+                        <path d="M1.72963894,6.26277372 C0.77438573,6.26277372 0,4.86080407 0,3.13138686 C0,1.40196965 0.77438573,0 1.72963894,0 L115.893088,0 C116.848342,0 117.622727,1.40196965 117.622727,3.13138686 C117.622727,4.86080407 116.848342,6.26277372 115.893088,6.26277372 L1.72963894,6.26277372 Z" id="Line"></path>
+                        <path d="M1.72963894,19.8321168 C0.77438573,19.8321168 0,18.4301471 0,16.7007299 C0,14.9713127 0.77438573,13.5693431 1.72963894,13.5693431 L115.893088,13.5693431 C116.848342,13.5693431 117.622727,14.9713127 117.622727,16.7007299 C117.622727,18.4301471 116.848342,19.8321168 115.893088,19.8321168 L1.72963894,19.8321168 Z" id="Line-Copy"></path>
+                        <path d="M18.2551362,33.4014599 C17.5619436,33.4014599 17,31.9994902 17,30.270073 C17,28.5406558 17.5619436,27.1386861 18.2551362,27.1386861 L101.099409,27.1386861 C101.792602,27.1386861 102.354545,28.5406558 102.354545,30.270073 C102.354545,31.9994902 101.792602,33.4014599 101.099409,33.4014599 L18.2551362,33.4014599 Z" id="Line-Copy-2"></path>
+                    </g>
+                    <polygon id="Triangle" fill="url(#linearGradient-5)" points="115.376797 97 148.753594 142.978102 82 142.978102"></polygon>
+                </g>
+                <path d="M236.5,226.859582 C236.047996,226.950193 235.555125,227 235.039216,227 L141.960784,227 C141.444875,227 140.952004,226.950193 140.5,226.859582 L140.5,258.5 C140.5,259.604569 139.604569,260.5 138.5,260.5 C137.395431,260.5 136.5,259.604569 136.5,258.5 L136.5,211.5 C136.5,210.395431 137.395431,209.5 138.5,209.5 C139.604569,209.5 140.5,210.395431 140.5,211.5 L140.5,223.140418 C140.952004,223.049807 141.444875,223 141.960784,223 L235.039216,223 C235.555125,223 236.047996,223.049807 236.5,223.140418 L236.5,211.5 C236.5,210.395431 237.395431,209.5 238.5,209.5 C239.604569,209.5 240.5,210.395431 240.5,211.5 L240.5,258.5 C240.5,259.604569 239.604569,260.5 238.5,260.5 C237.395431,260.5 236.5,259.604569 236.5,258.5 L236.5,226.859582 Z" id="Combined-Shape" fill="#286D92" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

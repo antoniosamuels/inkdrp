@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="295px" viewBox="0 0 344 295" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>business-cards</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="318" height="269" rx="10"></rect>
+        <filter x="-5.7%" y="-6.3%" width="113.8%" height="116.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0431372549   0 0 0 0 0.0470588235   0 0 0 0 0.0705882353  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="221.557377" height="120.434641" rx="7"></rect>
+        <linearGradient x1="49.9639554%" y1="-8.89069913%" x2="49.9639554%" y2="103.764728%" id="linearGradient-5">
+            <stop stop-color="#FEBB00" offset="0%"></stop>
+            <stop stop-color="#FF3693" offset="43%"></stop>
+            <stop stop-color="#FF1A4E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="cartoon-design-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-351.000000, -1608.000000)">
+            <g id="business-cards" transform="translate(360.000000, 1616.000000)">
+                <g id="Rectangle-Copy-9">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0D101B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-9" transform="translate(48.655738, 74.722222)">
+                    <g id="Rectangle-3-Copy-3">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#286D92" xlink:href="#path-3"></use>
+                        <polygon id="Rectangle-3" fill="#2F4368" mask="url(#mask-4)" points="-16.5081967 -6.15359477 73.9990027 -6.15359477 144.229508 137.137255 -16.5081967 137.137255"></polygon>
+                    </g>
+                    <g id="Group-7" transform="translate(21.721311, 72.964052)" fill="#191B27" fill-rule="nonzero">
+                        <path d="M2.60655738,5.2745098 C1.16699549,5.2745098 0,4.09377057 0,2.6372549 C0,1.18073924 1.16699549,0 2.60655738,0 L174.650314,0 C176.089876,0 177.256872,1.18073924 177.256872,2.6372549 C177.256872,4.09377057 176.089876,5.2745098 174.650314,5.2745098 L2.60655738,5.2745098 Z" id="Line"></path>
+                        <path d="M2.60655738,16.7026144 C1.16699549,16.7026144 0,15.5218751 0,14.0653595 C0,12.6088438 1.16699549,11.4281046 2.60655738,11.4281046 L174.650314,11.4281046 C176.089876,11.4281046 177.256872,12.6088438 177.256872,14.0653595 C177.256872,15.5218751 176.089876,16.7026144 174.650314,16.7026144 L2.60655738,16.7026144 Z" id="Line-Copy"></path>
+                        <path d="M1.87826603,28.130719 C0.840928347,28.130719 0,26.9499797 0,25.4934641 C0,24.0369484 0.840928347,22.8562092 1.87826603,22.8562092 L125.851729,22.8562092 C126.889067,22.8562092 127.729995,24.0369484 127.729995,25.4934641 C127.729995,26.9499797 126.889067,28.130719 125.851729,28.130719 L1.87826603,28.130719 Z" id="Line-Copy-2"></path>
+                    </g>
+                    <polygon id="Triangle" fill="url(#linearGradient-5)" points="38.6639344 16.7026144 55.6065574 40.4379085 21.7213115 40.4379085"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

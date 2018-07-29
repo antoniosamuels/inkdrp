@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="295px" viewBox="0 0 344 295" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>banners</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="318" height="269" rx="10"></rect>
+        <filter x="-5.7%" y="-6.3%" width="113.8%" height="116.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0431372549   0 0 0 0 0.0470588235   0 0 0 0 0.0705882353  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="0 0 82.5409836 12.5855642 82.5409836 192.312947 0 203.347002"></polygon>
+        <linearGradient x1="49.9639554%" y1="-8.89069913%" x2="49.9639554%" y2="103.764728%" id="linearGradient-5">
+            <stop stop-color="#FEBB00" offset="0%"></stop>
+            <stop stop-color="#FF3693" offset="43%"></stop>
+            <stop stop-color="#FF1A4E" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-6" points="0 0 82.5409836 12.5855642 82.5409836 192.312947 0 203.347002"></polygon>
+    </defs>
+    <g id="cartoon-design-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-1185.000000, -2084.000000)">
+            <g id="banners" transform="translate(1194.000000, 2092.000000)">
+                <g id="Rectangle-Copy-13">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0D101B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Rectangle" transform="translate(56.475410, 26.372549)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#2F4368" xlink:href="#path-3"></use>
+                    <polygon fill="#286D92" mask="url(#mask-4)" points="0 4.39542484 82.5409836 47.0876096 82.5409836 196.708372 0 207.742427"></polygon>
+                    <g id="Group-7-Copy-3" mask="url(#mask-4)" fill="#191B27" fill-rule="nonzero">
+                        <g transform="translate(13.901639, 108.127451)">
+                            <path d="M0.724932541,4.99594687 C0.324563354,4.99594687 0,3.87756606 0,2.49797343 C0,1.1183808 0.324563354,0 0.724932541,0 L48.5735312,0 C48.9739004,0 49.2984637,1.1183808 49.2984637,2.49797343 C49.2984637,3.87756606 48.9739004,4.99594687 48.5735312,4.99594687 L0.724932541,4.99594687 Z" id="Line"></path>
+                            <path d="M0.724932541,15.8204984 C0.324563354,15.8204984 0,14.7021176 0,13.322525 C0,11.9429323 0.324563354,10.8245515 0.724932541,10.8245515 L48.5735312,10.8245515 C48.9739004,10.8245515 49.2984637,11.9429323 49.2984637,13.322525 C49.2984637,14.7021176 48.9739004,15.8204984 48.5735312,15.8204984 L0.724932541,15.8204984 Z" id="Line-Copy"></path>
+                            <path d="M0.525111392,26.6450499 C0.235100378,26.6450499 0,25.5266691 0,24.1470765 C0,22.7674839 0.235100378,21.6491031 0.525111392,21.6491031 L35.1846732,21.6491031 C35.4746843,21.6491031 35.7097846,22.7674839 35.7097846,24.1470765 C35.7097846,25.5266691 35.4746843,26.6450499 35.1846732,26.6450499 L0.525111392,26.6450499 Z" id="Line-Copy-2"></path>
+                        </g>
+                    </g>
+                    <ellipse id="Oval-2" fill="url(#linearGradient-5)" mask="url(#mask-4)" cx="-6.51639344" cy="54.9428105" rx="26.5" ry="26.8120915"></ellipse>
+                    <ellipse id="Oval-2-Copy" fill="#191B27" mask="url(#mask-4)" cx="82.5409836" cy="183.728758" rx="27.8032787" ry="28.130719"></ellipse>
+                </g>
+                <g id="Rectangle-Copy-2" transform="translate(225.467213, 128.346405) scale(-1, 1) translate(-225.467213, -128.346405) translate(184.196721, 26.372549)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <use id="Mask" fill="#2F4368" xlink:href="#path-6"></use>
+                    <polygon id="Rectangle" fill="#286D92" mask="url(#mask-7)" points="0 4.39542484 82.5409836 63.6204479 82.5409836 196.708372 0 207.742427"></polygon>
+                    <g id="Group-7-Copy-3" mask="url(#mask-7)" fill="#191B27" fill-rule="nonzero">
+                        <g transform="translate(7.819672, 72.964052)">
+                            <path d="M0.724932541,4.99594687 C0.324563354,4.99594687 0,3.87756606 0,2.49797343 C0,1.1183808 0.324563354,0 0.724932541,0 L48.5735312,0 C48.9739004,0 49.2984637,1.1183808 49.2984637,2.49797343 C49.2984637,3.87756606 48.9739004,4.99594687 48.5735312,4.99594687 L0.724932541,4.99594687 Z" id="Line"></path>
+                            <path d="M0.724932541,15.8204984 C0.324563354,15.8204984 0,14.7021176 0,13.322525 C0,11.9429323 0.324563354,10.8245515 0.724932541,10.8245515 L48.5735312,10.8245515 C48.9739004,10.8245515 49.2984637,11.9429323 49.2984637,13.322525 C49.2984637,14.7021176 48.9739004,15.8204984 48.5735312,15.8204984 L0.724932541,15.8204984 Z" id="Line-Copy"></path>
+                            <path d="M0.525111392,26.6450499 C0.235100378,26.6450499 0,25.5266691 0,24.1470765 C0,22.7674839 0.235100378,21.6491031 0.525111392,21.6491031 L35.1846732,21.6491031 C35.4746843,21.6491031 35.7097846,22.7674839 35.7097846,24.1470765 C35.7097846,25.5266691 35.4746843,26.6450499 35.1846732,26.6450499 L0.525111392,26.6450499 Z" id="Line-Copy-2"></path>
+                        </g>
+                    </g>
+                    <ellipse id="Oval-2" fill="url(#linearGradient-5)" mask="url(#mask-7)" cx="-6.51639344" cy="156.037582" rx="27.3688525" ry="27.6911765"></ellipse>
+                    <ellipse id="Oval-2-Copy-2" fill="#191B27" mask="url(#mask-7)" cx="88.1885246" cy="52.3055556" rx="26.5" ry="26.8120915"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

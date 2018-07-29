@@ -10,15 +10,124 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
- *= require toastr
  */
 
- 
- body {
-     background-color: #191B27;
-     color: #ffffff;
- }
+@import 'bootstrap';
+//* colors *//
+$primary-color: #191B27;
+$h2-color: #286D92;
 
- 
+//* mixins *//
+@mixin gradient-text($angle: 55deg, $color: #FF3591, $amount: 15%) {
+    color: $color;
+    background: -webkit-linear-gradient($angle, $color, adjust-hue($color, $amount));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+} 
+
+//* scss - css *//
+
+body {
+    background-color: $primary-color;
+    color: #ffffff;
+    margin: 0px auto;
+}
+
+.header {
+    margin: 0;
+    text-align: center;
+}
+
+.products-home {
+    padding: 10% 0;
+}
+
+.section-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.price-upcase {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.bottom-padding {
+    padding-bottom: 25px;
+}
+
+.productimg {
+    width: 100%;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: $h2-color;
+    font-size: 28px;
+}
+
+h3 {
+    @include gradient-text;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.75rem;
+}
+
+.button-big {
+    /* Rectangle [25 40]: */
+    background: #286D92;
+    border-radius: 300px;
+    /* need something custo: */
+    font-family: AvenirNext-DemiBold;
+    font-size: 20px;
+    color: #B0C9BE;
+    padding: 25px;
+    text-transform: uppercase;
+} 
+
+.button-big:hover {
+    /* Rectangle [25 40]: */
+    background: rgb(27, 77, 104);
+    border-radius: 300px;
+    /* need something custo: */
+    color: #B0C9BE;
+    padding: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+//* header information *//
+.intro-content {
+    margin: -100px auto 0 auto;
+    max-width: 700px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.print-help {
+    width: 510px;
+    height: auto;
+    background-color: #0D101B;
+    border-radius: 20px;
+    padding: 20px;
+    float: left;
+    margin-right: 5px;
+    text-align: left;
+    margin: 55px 10px;
+}
+
+.icon-img {
+  height: 140px;
+  padding: 8px 10px;
+  float: left;
+}
+
+.content-ink {
+  color: #ffffff;
+}
+
+.footer {
+    margin: 25px 0;
+    text-align: center;
+}
