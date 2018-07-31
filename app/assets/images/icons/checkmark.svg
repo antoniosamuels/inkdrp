@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#B4EC51" offset="0%"></stop>
+            <stop stop-color="#429321" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="cartoon-design-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="selection-page" transform="translate(-410.000000, -1477.000000)">
+            <g id="checkmark" transform="translate(410.000000, 1477.000000)">
+                <rect id="Rectangle-Copy" fill="url(#linearGradient-1)" x="0" y="0" width="40" height="40" rx="20"></rect>
+                <g transform="translate(6.666667, 11.333333)" fill="#1D2238" fill-rule="nonzero" id="Shape">
+                    <path d="M8.77895652,18.4259502 C8.34515217,18.4259502 7.91106522,18.2626866 7.58013043,17.9361592 L0.496826087,10.9531542 C-0.165608696,10.3003781 -0.165608696,9.24195025 0.496543478,8.58917413 C1.15897826,7.93639801 2.2328913,7.93639801 2.89447826,8.58917413 L8.77895652,14.3900498 L22.8794348,0.489512438 C23.5413043,-0.163263682 24.6157826,-0.163263682 25.277087,0.489512438 C25.9395217,1.14228856 25.9395217,2.20071642 25.277087,2.85349254 L9.97806522,17.9361592 C9.64713043,18.2626866 9.21304348,18.4259502 8.77895652,18.4259502 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -15,11 +15,19 @@
 @import 'bootstrap';
 //* colors *//
 $primary-color: #191B27;
-$secondar-color: #1D223B;
+$secondary-color: #1D223B;
 $h2-color: #286D92;
 
 //* mixins *//
-@mixin gradient-text($angle: 55deg, $color: #FF3591, $amount: 15%) {
+@mixin gradient-text($angle: 35deg, $color: #FF3591, $amount: 45%) {
+    color: $color;
+    background: -webkit-linear-gradient($angle, $color, adjust-hue($color, $amount));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+@mixin gradient-text-2($angle: 55deg, $color: #0079AF, $amount: 15%) {
     color: $color;
     background: -webkit-linear-gradient($angle, $color, adjust-hue($color, $amount));
     -webkit-text-fill-color: transparent;
@@ -38,6 +46,18 @@ body {
 .header {
     margin: 0;
     text-align: center;
+}
+
+.title {
+  margin-top: 10%;
+}
+
+.title-sub-text {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin: -10px 0 20px;
+
+  @include gradient-text-2
 }
 
 .products-home {
@@ -62,6 +82,37 @@ body {
     width: 100%;
 }
 
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  color: #B6E5D0;
+  font-size: 40px;
+}
+
+li:before {
+  background-image: url(../images/icons/checkmark.png);
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.list-product-page {
+  margin-top: 35px;
+}
+
+.icon-checkmark {
+  padding-right: 20px;
+  margin-top: -5px;
+}
+
+.qty-title {
+  @include gradient-text;
+  font-size: 2.2rem;
+}
+
 p {
   margin: 1.6px;
   font-size: 1.1rem;
@@ -77,7 +128,7 @@ h3 {
     @include gradient-text;
     text-align: center;
     text-transform: uppercase;
-    font-size: 3.75rem;
+    font-size: 2.75rem;
 }
 
 h4 {
@@ -146,7 +197,7 @@ h4 {
 //* product page information *//
 
 .product-card-page {
-    background-color: $secondar-color;
+    background-color: $secondary-color;
     padding: 15px;
     border-radius: 15px;
 }
