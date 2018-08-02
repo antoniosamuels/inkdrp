@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 gem 'toastr-rails'
+gem 'stripe'
 
 gem 'bootstrap'
 gem 'jquery-rails'
