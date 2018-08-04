@@ -168,15 +168,11 @@ h4 {
 }
 
 .print-help {
-    width: 510px;
-    height: auto;
     background-color: #0D101B;
     border-radius: 20px;
-    padding: 20px;
-    float: left;
-    margin-right: 5px;
-    text-align: left;
-    margin: 55px 10px;
+    padding: 1.2rem !important;
+    margin: 5px;
+    flex: auto;
 }
 
 .icon-img {
@@ -202,6 +198,10 @@ h4 {
     border-radius: 15px;
 }
 
+.product-card-page img {
+    width: 100%;
+}
+
 .price-bck {
   background-color: #2C3562;
   display:inline-block;
@@ -217,11 +217,13 @@ h4 {
 }
 
 .price-cart {
-  margin-left: 15px;
+  margin-left: 3px;
+    margin-top: -10px;
+    padding-left: 10px;
 }
 
 /* Grow */
-.hvr-bob {
+.hvr-bob, a {
     display: inline-block;
     vertical-align: middle;
     transform: translateY(0);
@@ -230,10 +232,13 @@ h4 {
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
+    color: #ffffff;
 }
 
 .hvr-bob:hover,
 .hvr-bob:focus,
 .hvr-bob:active {
-    transform: scale(1.1);
+    color: #f7f7f7;
+    text-decoration: none;
+    transform: scale(1.05);
 }

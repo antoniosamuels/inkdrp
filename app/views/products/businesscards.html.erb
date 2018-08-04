@@ -16,14 +16,20 @@
     <p>14pt cardstock</p>
     <p>3 day printing (business days)</p>
     <p>Roughly 3-5 days for shipping</p>
+    <br>
+    <%= render 'layouts/disclaim-upload' %>
   </div>
 
   <div class="col-md-4">
     <div class="price-bck">$80<%= link_to image_tag('icons/shop-icon.svg', size: '65x65', :class => "price-cart", :id => "customButton") %></div>
   </div>
+
 </div>
 
 <%= render 'layouts/checklist.html' %>
+<%= render 'layouts/print-help.html' %>
+
+
 
 
 <script>
@@ -37,14 +43,18 @@ var handler = StripeCheckout.configure({
   }
 });
 
+
+
 document.getElementById('customButton').addEventListener('click', function(e) {
   // Open Checkout with further options:
   handler.open({
     name: 'Inkdrp',
-    description: '2 widgets',
-    amount: 2000,
+    description: '250qty Business Cards',
+    amount: 8000,
     billingAddress: true,
-    shippingAddress: true
+    shippingAddress: true,
+    locale: 'auto',
+    allowRememberMe: true
   });
   e.preventDefault();
 });
