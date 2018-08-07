@@ -17,6 +17,7 @@
 $primary-color: #191B27;
 $secondary-color: #1D223B;
 $h2-color: #286D92;
+$grey-blue: #B0C9BE;
 
 //* mixins *//
 @mixin gradient-text($angle: 35deg, $color: #FF3591, $amount: 45%) {
@@ -134,6 +135,10 @@ h3 {
 h4 {
   font-size: 20px;
   margin: 0.8px;
+}
+
+.note {
+  color: $grey-blue;
 }
 
 .button-big {

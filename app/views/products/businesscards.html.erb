@@ -6,22 +6,23 @@
 </div>
 
 <div class="product-card-page row">
-  <div class="col-md-4"><%= image_tag 'products/business-cards.png' %></div>
+  <div class="col-md-3"><%= image_tag 'products/business-cards.png' %></div>
 
-  <div class="col-md-4">
+  <div class="col-md-6">
     <h2 class="qty-title">250 cards</h2>
     <p>Full color print</p>
-    <p>Double sided (color on both sides, yeah!)</p>
+    <p>Double sided <span class="note">(color on both sides, yeah!)</span></p>
     <p>High gloss UV</p>
     <p>14pt cardstock</p>
-    <p>3 day printing (business days)</p>
-    <p>Roughly 3-5 days for shipping</p>
+    <p>3 day printing <span class="note">(business days)</span></p>
+    <p>3-8 days shipping <span class="note">(price includes shipping)</span></p>
+    <p>Standard printed size 2" x 3.5"</p>
     <br>
     <%= render 'layouts/disclaim-upload' %>
   </div>
 
-  <div class="col-md-4">
-    <div class="price-bck">$80<%= link_to image_tag('icons/shop-icon.svg', size: '65x65', :class => "price-cart", :id => "customButton") %></div>
+  <div class="col-md-3">
+    <div class="price-bck">$67<%= link_to image_tag('icons/shop-icon.svg', size: '65x65', :class => "price-cart", :id => "customButton") %></div>
   </div>
 
 </div>
@@ -50,7 +51,7 @@ document.getElementById('customButton').addEventListener('click', function(e) {
   handler.open({
     name: 'Inkdrp',
     description: '250qty Business Cards',
-    amount: 8000,
+    amount: 6700,
     billingAddress: true,
     shippingAddress: true,
     locale: 'auto',
