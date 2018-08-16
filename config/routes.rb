@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   get 'products/menus'
 
-  devise_for :users
+  devise_for :users, :skip => [:registrations]
   root 'intro#index'
   get 'intro/about'
 
