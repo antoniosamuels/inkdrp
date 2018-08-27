@@ -14,8 +14,12 @@
                 <%= f.phone_field :phone, class: "form-control form-control-lg" %>
                 <br>
 
-                <%= f.label :file %><br>
-                <%= f.file_field :file, class: "form-control-file" %>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                </div>
+                <br>
+
                 <br>
 
             <%= f.label :message %><br>
