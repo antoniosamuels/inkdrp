@@ -168,8 +168,8 @@ h4 {
 
 //* header information *//
 .intro-content {
-    margin: -100px auto 0 auto;
-    max-width: 700px;
+    margin: -180px auto 0 auto;
+    max-width: 725px;
     min-width: 300px;
     text-align: center;
 }
@@ -249,3 +249,8 @@ h4 {
     text-decoration: none;
     transform: scale(1.05);
 }
+
+textarea.form-control {
+    height: auto;
+    min-height: 200px;
+    }

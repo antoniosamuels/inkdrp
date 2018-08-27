@@ -1,23 +1,27 @@
 
 <%= form_for @contact do |f| %>
-    <%= f.label :name %><br>
-    <%= f.text_field :name, required: true %>
-    
-    <br>
+    <form>
+            <%= f.label :name %><br>
+            <%= f.text_field :name, required: true, class: "form-control" %>
+            
+            <br>
 
-    <%= f.label :email %><br>
-    <%= f.email_field :email, required: true %>
+            <%= f.label :email %><br>
+            <%= f.email_field :email, required: true, class: "form-control" %>
+            <br>
 
-    <br>
+            <%= f.label :phone %><br>
+            <%= f.phone_field :phone, class: "form-control" %>
+            <br>
 
-    <%= f.label :message %><br>
-    <%= f.text_area :message, as: :text %>
+        <%= f.label :message %><br>
+        <%= f.text_area :message, as: :text, class: "form-control" %>
 
-    <div class="hidden">
-        <%= f.label :nickname %><br>
-        <%= f.text_field :nickname, hint: 'leave this field blank' %>
-    </div>
-
-    <%= f.submit 'Send Message', class: "button" %>
-
+        <div class="hidden">
+            <%= f.label :nickname %><br>
+            <%= f.text_field :nickname, hint: 'leave this field blank' %>
+        </div>
+        <br>
+        <%= f.submit 'Send Message', class: "btn btn-outline-primary" %>
+    </form>
 <% end %>
