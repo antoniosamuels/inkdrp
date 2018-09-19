@@ -1,15 +1,11 @@
-
-
 <div class="title">
   <h3>Business cards</h3><br>
   <h1 class="title-sub-text">Make a statement</h1>
 </div>
 
 <div class="product-card-page row">
-  <div class="col-md-3"><%= image_tag 'products/business-cards.png' %></div>
-
-  <div class="col-md-6">
-    <h2 class="qty-title">250 cards</h2>
+   <div class="col-md-6">
+    <h2 class="qty-title">250 cards<span> for $65</span></h2>
     <p>Full color print</p>
     <p>Double sided <span class="note">(color on both sides, yeah!)</span></p>
     <p>High gloss UV</p>
@@ -19,50 +15,42 @@
     <p>Standard printed size 2" x 3.5"</p>
     <br>
     <%= render 'layouts/disclaim-upload' %>
+
+    <br>
+
+     <%= form_tag charges_path do %>
+    <article>
+      <% if flash[:error].present? %>
+      <div id="error_explanation">
+        <p>
+          <%= flash[:error] %>
+        </p>
+      </div>
+      <% end %>
+    </article>
+
+    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+      data-description="A month's subscription" data-amount="6500" data-locale="auto" data-locale="auto" data-zip-code="true"
+      data-shipping-address="true" data-label="Place your order" data-image="https://stripe.com/img/documentation/checkout/marketplace.png">
+      >
+    </script>
+    <% end %>
+
+    
   </div>
 
-  <div class="col-md-3">
-    <div class="price-bck">$67<%= link_to image_tag('icons/shop-icon.svg', size: '65x65', :class => "price-cart", :id => "customButton") %></div>
+  
+
+  
+
+  <div class="col-md-6">
+    <%= image_tag 'products/business-cards.png' %>
   </div>
 
 </div>
+  
+  </div>
 
 <%= render 'layouts/checklist.html' %>
 <br>
 <%= render 'layouts/print-help.html' %>
-
-
-
-
-<script>
-var handler = StripeCheckout.configure({
-  key: 'pk_test_L3LFGlkSL0zXqVtTjGiNO5nB',
-  image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
-  locale: 'auto',
-  token: function(token) {
-    // You can access the token ID with `token.id`.
-    // Get the token ID to your server-side code for use.
-  }
-});
-
-
-
-document.getElementById('customButton').addEventListener('click', function(e) {
-  // Open Checkout with further options:
-  handler.open({
-    name: 'Inkdrp',
-    description: '250qty Business Cards',
-    amount: 6700,
-    billingAddress: true,
-    shippingAddress: true,
-    locale: 'auto',
-    allowRememberMe: true
-  });
-  e.preventDefault();
-});
-
-// Close Checkout on page navigation:
-window.addEventListener('popstate', function() {
-  handler.close();
-});
-</script>

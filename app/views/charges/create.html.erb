@@ -1,1 +1,58 @@
-<h2>Thanks, you paid <strong>$5.00</strong>!</h2>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Inkdrp</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+
+
+</head>
+
+<body>
+  <p class="notice">
+    <%= notice %>
+  </p>
+  <p class="alert">
+    <%= alert %>
+  </p>
+
+
+  <main role="main" class="container">
+    <%= render 'layouts/header.html' %>
+
+    <%= yield %>
+    <br>
+    <section class="small-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <div class="container">
+        <h3>Upload your files at the button below</h3>
+        <p>You will be redirected to a dropbox upload page so we will receive your files to print. Make sure your file
+          name mirrors your name on the payment. </p>
+        <br>
+        <a href="#" class="btn btn-ink my-2">Click here to Upload Files for Print</a>
+      </div>
+    </section>
+
+    <h1 class="text-center">Or</h1>
+
+    <section class="small-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h3>Email your files to print</h3>
+      <p>You can also email your files to be. NOTE: files must be less then 10MB to email.</p>
+      <br>
+      <a href="#" class="btn btn-ink my-2">Click here to Email File</a>
+    </section>
+  </main>
+
+
+
+  <div class="container">
+    <%= render 'layouts/footer.html'%>
+  </div>
+
+
+</body>
+
+</html>
